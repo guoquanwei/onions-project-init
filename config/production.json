@@ -1,0 +1,29 @@
+{
+  "logConfig": {
+    "level": "info"
+  },
+  "servicesHost": {
+    "courseResource": "http://172.16.3.141",
+    "user": "http://172.16.3.146",
+    "teacher": "http://172.18.0.160",
+    "onions": "http://172.16.3.140",
+    "classIn": "http://www.eeo.cn/partner/api/course.api.php"
+  },
+  "pg":{
+    "username": "teacher",
+    "database": "daenerysTargaryen",
+    "password": "unitedtea",
+    "host": "yc-teacher.pg.rds.aliyuncs.com",
+    "port": 3433,
+    "max": 100,
+    "dialect": "postgresql",
+    "idleTimeoutMillis": 30000
+  },
+  "redis": {
+    "port": 6379,
+    "host": "r-bp111f0dc61df6f4.redis.rds.aliyuncs.com",
+    "password": "Yangcong345",
+    "db": 4,
+    "keyPrefix": "daenerysTargaryen#"
+  }
+}

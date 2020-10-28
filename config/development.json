@@ -1,0 +1,25 @@
+{
+  "logConfig": {
+    "level": "silly"
+  },
+  "servicesHost": {
+    "user": "http://10.8.8.207:10020",
+    "teacher": "http://10.8.8.210:3020"
+  },
+  "pg":{
+    "username": "postgres",
+    "database": "daenerysTargaryen",
+    "password": "teacherschoolpg94",
+    "host": "10.8.8.121",
+    "port": 5434,
+    "max": 10,
+    "dialect": "postgresql",
+    "idleTimeoutMillis": 30000
+  },
+  "redis": {
+    "port": 6379,
+    "host": "10.8.8.117",
+    "db": 4,
+    "keyPrefix": "daenerysTargaryen#"
+  }
+}
