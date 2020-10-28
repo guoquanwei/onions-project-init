@@ -1,6 +1,8 @@
 {
   "name": "onions-project-init",
   "version": "1.0.3",
+  "license": "MIT",
+  "main": "index.js",
   "author": "guoquanwei",
   "entry point": "app/app.js",
   "description": "node service model",
