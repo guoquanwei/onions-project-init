@@ -1,11 +1,13 @@
 {
   "name": "onions-project-init",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "author": "guoquanwei",
+  "entry point": "app/app.js",
   "description": "node service model",
+  "keywords": ["service-model", "koa"],
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/guoquanwei/onions-project-init"
   },
   "scripts": {
     "start": "./node_modules/.bin/nodemon bin/www",
